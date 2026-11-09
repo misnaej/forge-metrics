@@ -1,0 +1,5216 @@
+{
+  "schema": 4,
+  "generator": "11.1.1",
+  "prs": [
+    {
+      "repo": "forge",
+      "forge_version": "10.4.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 30,
+      "additions": 1031,
+      "deletions": 2759,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 9,
+      "test_runs": 1,
+      "active_s": 3670.074,
+      "wall_s": 13993.352,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 140473,
+          "cache_read": 692118,
+          "output": 9314
+        },
+        "forge:docs-types-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 71584,
+          "cache_read": 410874,
+          "output": 4103
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 56815,
+          "cache_read": 211136,
+          "output": 3291
+        },
+        "forge:precommit-fixer": {
+          "requests": 21,
+          "input": 42,
+          "cache_write": 163505,
+          "cache_read": 969808,
+          "output": 9112
+        },
+        "forge:prior-art": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 61380,
+          "cache_read": 315568,
+          "output": 9293
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 110740,
+          "cache_read": 363598,
+          "output": 3659
+        },
+        "general-purpose": {
+          "requests": 112,
+          "input": 228,
+          "cache_write": 979350,
+          "cache_read": 21268374,
+          "output": 104568
+        },
+        "main": {
+          "requests": 53,
+          "input": 106,
+          "cache_write": 165071,
+          "cache_read": 16225615,
+          "output": 30594
+        },
+        "other": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 96621,
+          "cache_read": 465851,
+          "output": 2793
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.4.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 3,
+      "additions": 79,
+      "deletions": 3,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 2,
+      "test_runs": 0,
+      "active_s": 3817.078,
+      "wall_s": 13716.745,
+      "tokens": {
+        "Explore": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 61905,
+          "cache_read": 608305,
+          "output": 151
+        },
+        "claude-code-guide": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 186974,
+          "cache_read": 832905,
+          "output": 53
+        },
+        "forge:design-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 101942,
+          "cache_read": 265065,
+          "output": 101
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 50607,
+          "cache_read": 140467,
+          "output": 34
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 47675,
+          "cache_read": 145609,
+          "output": 65
+        },
+        "forge:pr-manager": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 62332,
+          "cache_read": 510979,
+          "output": 302
+        },
+        "forge:precommit-fixer": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 99888,
+          "cache_read": 369646,
+          "output": 63
+        },
+        "forge:prior-art": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 73023,
+          "cache_read": 295500,
+          "output": 29
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 67905,
+          "cache_read": 457522,
+          "output": 168
+        },
+        "forge:test-writer": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 48373,
+          "cache_read": 132415,
+          "output": 68
+        },
+        "main": {
+          "requests": 81,
+          "input": 188,
+          "cache_write": 352989,
+          "cache_read": 14078705,
+          "output": 46253
+        },
+        "other": {
+          "requests": 14,
+          "input": 34,
+          "cache_write": 132786,
+          "cache_read": 521932,
+          "output": 272
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.4.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 43,
+      "additions": 2121,
+      "deletions": 635,
+      "commits": 2,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 5,
+      "active_s": 4905.645,
+      "wall_s": 10180.905,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 232932,
+          "cache_read": 529431,
+          "output": 10287
+        },
+        "forge:docs-types-checker": {
+          "requests": 23,
+          "input": 46,
+          "cache_write": 274696,
+          "cache_read": 1034962,
+          "output": 12045
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 51391,
+          "cache_read": 146597,
+          "output": 2084
+        },
+        "forge:pr-manager": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 67104,
+          "cache_read": 601698,
+          "output": 8155
+        },
+        "forge:precommit-fixer": {
+          "requests": 73,
+          "input": 148,
+          "cache_write": 297735,
+          "cache_read": 5061664,
+          "output": 46756
+        },
+        "forge:prior-art": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 75741,
+          "cache_read": 440189,
+          "output": 15160
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 117931,
+          "cache_read": 270813,
+          "output": 5218
+        },
+        "forge:test-advisor": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 143641,
+          "cache_read": 467744,
+          "output": 14062
+        },
+        "forge:test-writer": {
+          "requests": 21,
+          "input": 42,
+          "cache_write": 134755,
+          "cache_read": 2153026,
+          "output": 31390
+        },
+        "general-purpose": {
+          "requests": 37,
+          "input": 78,
+          "cache_write": 213676,
+          "cache_read": 3454377,
+          "output": 23602
+        },
+        "main": {
+          "requests": 142,
+          "input": 284,
+          "cache_write": 398358,
+          "cache_read": 29517181,
+          "output": 94573
+        },
+        "other": {
+          "requests": 25,
+          "input": 62,
+          "cache_write": 209965,
+          "cache_read": 1026053,
+          "output": 8861
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 13,
+      "additions": 775,
+      "deletions": 304,
+      "commits": 6,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 17,
+      "test_runs": 2,
+      "active_s": 5996.363,
+      "wall_s": 11206.053,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 16,
+          "input": 29,
+          "cache_write": 252837,
+          "cache_read": 1142158,
+          "output": 12594
+        },
+        "forge:docs-types-checker": {
+          "requests": 14,
+          "input": 30,
+          "cache_write": 176593,
+          "cache_read": 971092,
+          "output": 12237
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 74992,
+          "cache_read": 143691,
+          "output": 1451
+        },
+        "forge:pr-manager": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 74873,
+          "cache_read": 411097,
+          "output": 4310
+        },
+        "forge:precommit-fixer": {
+          "requests": 47,
+          "input": 98,
+          "cache_write": 737887,
+          "cache_read": 3885260,
+          "output": 40511
+        },
+        "forge:prior-art": {
+          "requests": 14,
+          "input": 29,
+          "cache_write": 160521,
+          "cache_read": 1545715,
+          "output": 28232
+        },
+        "forge:security-checker": {
+          "requests": 8,
+          "input": 14,
+          "cache_write": 154491,
+          "cache_read": 466026,
+          "output": 4490
+        },
+        "forge:test-advisor": {
+          "requests": 5,
+          "input": 11,
+          "cache_write": 81636,
+          "cache_read": 298481,
+          "output": 6594
+        },
+        "forge:test-writer": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 197643,
+          "cache_read": 1094850,
+          "output": 18402
+        },
+        "main": {
+          "requests": 223,
+          "input": 446,
+          "cache_write": 379746,
+          "cache_read": 87142582,
+          "output": 123059
+        },
+        "other": {
+          "requests": 32,
+          "input": 64,
+          "cache_write": 574107,
+          "cache_read": 1785309,
+          "output": 14430
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 5,
+      "additions": 25,
+      "deletions": 17,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 2,
+      "test_runs": 0,
+      "active_s": 361.364,
+      "wall_s": 361.364,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 16,
+          "cache_write": 99143,
+          "cache_read": 198823,
+          "output": 5347
+        },
+        "forge:issue-triage": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 45917,
+          "cache_read": 48539,
+          "output": 632
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 56393,
+          "cache_read": 373566,
+          "output": 3319
+        },
+        "forge:precommit-fixer": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 51903,
+          "cache_read": 148427,
+          "output": 1641
+        },
+        "general-purpose": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 73022,
+          "cache_read": 138375,
+          "output": 1330
+        },
+        "main": {
+          "requests": 24,
+          "input": 48,
+          "cache_write": 29471,
+          "cache_read": 3303511,
+          "output": 8691
+        },
+        "other": {
+          "requests": 8,
+          "input": 20,
+          "cache_write": 46993,
+          "cache_read": 330774,
+          "output": 1719
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 7,
+      "additions": 59,
+      "deletions": 41,
+      "commits": 2,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 1370.639,
+      "wall_s": 2678.577,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 15,
+          "input": 30,
+          "cache_write": 164562,
+          "cache_read": 704472,
+          "output": 6733
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 56599,
+          "cache_read": 206854,
+          "output": 2680
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 3540,
+          "cache_read": 141839,
+          "output": 2092
+        },
+        "forge:pr-manager": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 57896,
+          "cache_read": 321394,
+          "output": 3501
+        },
+        "forge:precommit-fixer": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 94244,
+          "cache_read": 364152,
+          "output": 4137
+        },
+        "forge:prior-art": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 70600,
+          "cache_read": 286878,
+          "output": 18953
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 14,
+          "cache_write": 108409,
+          "cache_read": 214455,
+          "output": 4877
+        },
+        "general-purpose": {
+          "requests": 16,
+          "input": 34,
+          "cache_write": 154679,
+          "cache_read": 1029429,
+          "output": 6715
+        },
+        "main": {
+          "requests": 71,
+          "input": 142,
+          "cache_write": 107005,
+          "cache_read": 14440428,
+          "output": 40480
+        },
+        "other": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 87129,
+          "cache_read": 522305,
+          "output": 3089
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 19,
+      "additions": 1538,
+      "deletions": 178,
+      "commits": 10,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 20,
+      "test_runs": 8,
+      "active_s": 7169.223,
+      "wall_s": 7169.223,
+      "tokens": {
+        "Explore": {
+          "requests": 22,
+          "input": 43,
+          "cache_write": 88475,
+          "cache_read": 1269955,
+          "output": 12566
+        },
+        "forge:design-checker": {
+          "requests": 19,
+          "input": 34,
+          "cache_write": 362685,
+          "cache_read": 1308937,
+          "output": 14048
+        },
+        "forge:docs-types-checker": {
+          "requests": 16,
+          "input": 34,
+          "cache_write": 188148,
+          "cache_read": 1182377,
+          "output": 8773
+        },
+        "forge:issue-triage": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 66802,
+          "cache_read": 300639,
+          "output": 1518
+        },
+        "forge:pr-manager": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 87085,
+          "cache_read": 495234,
+          "output": 4184
+        },
+        "forge:precommit-fixer": {
+          "requests": 79,
+          "input": 166,
+          "cache_write": 679935,
+          "cache_read": 6673681,
+          "output": 42408
+        },
+        "forge:prior-art": {
+          "requests": 11,
+          "input": 21,
+          "cache_write": 112965,
+          "cache_read": 940157,
+          "output": 18607
+        },
+        "forge:security-checker": {
+          "requests": 19,
+          "input": 36,
+          "cache_write": 188583,
+          "cache_read": 1458618,
+          "output": 8772
+        },
+        "forge:test-advisor": {
+          "requests": 18,
+          "input": 34,
+          "cache_write": 313738,
+          "cache_read": 1041800,
+          "output": 13361
+        },
+        "forge:test-writer": {
+          "requests": 73,
+          "input": 146,
+          "cache_write": 376357,
+          "cache_read": 8840249,
+          "output": 49008
+        },
+        "general-purpose": {
+          "requests": 162,
+          "input": 362,
+          "cache_write": 1022808,
+          "cache_read": 44895810,
+          "output": 118527
+        },
+        "main": {
+          "requests": 96,
+          "input": 192,
+          "cache_write": 116521,
+          "cache_read": 40645481,
+          "output": 37804
+        },
+        "other": {
+          "requests": 37,
+          "input": 73,
+          "cache_write": 554762,
+          "cache_read": 2448533,
+          "output": 23358
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 18,
+      "additions": 1008,
+      "deletions": 1101,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 9,
+      "test_runs": 2,
+      "active_s": 1359.11,
+      "wall_s": 1359.11,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 106753,
+          "cache_read": 324840,
+          "output": 3862
+        },
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 14,
+          "cache_write": 59479,
+          "cache_read": 257511,
+          "output": 5732
+        },
+        "forge:issue-triage": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 3465,
+          "cache_read": 94475,
+          "output": 2252
+        },
+        "forge:precommit-fixer": {
+          "requests": 24,
+          "input": 48,
+          "cache_write": 140543,
+          "cache_read": 1630639,
+          "output": 11900
+        },
+        "forge:security-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 120299,
+          "cache_read": 360737,
+          "output": 4787
+        },
+        "forge:test-advisor": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 43511,
+          "cache_read": 41739,
+          "output": 923
+        },
+        "forge:test-writer": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 44924,
+          "cache_read": 42562,
+          "output": 1233
+        },
+        "general-purpose": {
+          "requests": 78,
+          "input": 156,
+          "cache_write": 548184,
+          "cache_read": 7256939,
+          "output": 80229
+        },
+        "main": {
+          "requests": 66,
+          "input": 132,
+          "cache_write": 95719,
+          "cache_read": 21401024,
+          "output": 36496
+        },
+        "other": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 89873,
+          "cache_read": 427817,
+          "output": 2770
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 21,
+      "additions": 1497,
+      "deletions": 692,
+      "commits": 5,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 19,
+      "test_runs": 0,
+      "active_s": 5345.18,
+      "wall_s": 13069.542,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 14,
+          "input": 25,
+          "cache_write": 268640,
+          "cache_read": 908879,
+          "output": 14441
+        },
+        "forge:docs-types-checker": {
+          "requests": 17,
+          "input": 36,
+          "cache_write": 269720,
+          "cache_read": 1090369,
+          "output": 12678
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 72567,
+          "cache_read": 214140,
+          "output": 1040
+        },
+        "forge:precommit-fixer": {
+          "requests": 51,
+          "input": 104,
+          "cache_write": 636795,
+          "cache_read": 4122005,
+          "output": 32607
+        },
+        "forge:prior-art": {
+          "requests": 11,
+          "input": 21,
+          "cache_write": 118721,
+          "cache_read": 995124,
+          "output": 20869
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 172418,
+          "cache_read": 581424,
+          "output": 6379
+        },
+        "forge:test-advisor": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 176268,
+          "cache_read": 627247,
+          "output": 11505
+        },
+        "forge:test-writer": {
+          "requests": 27,
+          "input": 56,
+          "cache_write": 314482,
+          "cache_read": 2318271,
+          "output": 25176
+        },
+        "main": {
+          "requests": 199,
+          "input": 406,
+          "cache_write": 615612,
+          "cache_read": 93639143,
+          "output": 124486
+        },
+        "other": {
+          "requests": 41,
+          "input": 77,
+          "cache_write": 490817,
+          "cache_read": 2523563,
+          "output": 13096
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 16,
+      "additions": 507,
+      "deletions": 179,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 5,
+      "test_runs": 5,
+      "active_s": 3004.379,
+      "wall_s": 51449.051,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 195750,
+          "cache_read": 688407,
+          "output": 9908
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 82454,
+          "cache_read": 222428,
+          "output": 1858
+        },
+        "forge:issue-triage": {
+          "requests": 2,
+          "input": 3,
+          "cache_write": 3528,
+          "cache_read": 143938,
+          "output": 2252
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 83907,
+          "cache_read": 318088,
+          "output": 3800
+        },
+        "forge:precommit-fixer": {
+          "requests": 23,
+          "input": 50,
+          "cache_write": 200825,
+          "cache_read": 1836159,
+          "output": 10561
+        },
+        "forge:prior-art": {
+          "requests": 8,
+          "input": 15,
+          "cache_write": 127844,
+          "cache_read": 689636,
+          "output": 19532
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 12,
+          "cache_write": 155632,
+          "cache_read": 384083,
+          "output": 3448
+        },
+        "main": {
+          "requests": 94,
+          "input": 190,
+          "cache_write": 384070,
+          "cache_read": 19575814,
+          "output": 54369
+        },
+        "other": {
+          "requests": 20,
+          "input": 38,
+          "cache_write": 250809,
+          "cache_read": 1443346,
+          "output": 10071
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 4,
+      "additions": 252,
+      "deletions": 0,
+      "commits": 5,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 13,
+      "test_runs": 0,
+      "active_s": 4406.714,
+      "wall_s": 18616.067,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 83124,
+          "cache_read": 161221,
+          "output": 4560
+        },
+        "forge:docs-types-checker": {
+          "requests": 15,
+          "input": 34,
+          "cache_write": 198611,
+          "cache_read": 1139247,
+          "output": 11213
+        },
+        "forge:pr-manager": {
+          "requests": 18,
+          "input": 40,
+          "cache_write": 94552,
+          "cache_read": 1487749,
+          "output": 7811
+        },
+        "forge:precommit-fixer": {
+          "requests": 20,
+          "input": 44,
+          "cache_write": 309984,
+          "cache_read": 1285373,
+          "output": 9535
+        },
+        "forge:prior-art": {
+          "requests": 10,
+          "input": 22,
+          "cache_write": 111467,
+          "cache_read": 826353,
+          "output": 14770
+        },
+        "main": {
+          "requests": 123,
+          "input": 246,
+          "cache_write": 262591,
+          "cache_read": 28368352,
+          "output": 82759
+        },
+        "other": {
+          "requests": 26,
+          "input": 62,
+          "cache_write": 412555,
+          "cache_read": 1492149,
+          "output": 8324
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 32,
+      "additions": 56,
+      "deletions": 942,
+      "commits": 6,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 10,
+      "test_runs": 5,
+      "active_s": 4525.898,
+      "wall_s": 15167.99,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 183025,
+          "cache_read": 664574,
+          "output": 7709
+        },
+        "forge:docs-types-checker": {
+          "requests": 13,
+          "input": 28,
+          "cache_write": 163970,
+          "cache_read": 836673,
+          "output": 7517
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 168230,
+          "cache_read": 476343,
+          "output": 6729
+        },
+        "forge:precommit-fixer": {
+          "requests": 30,
+          "input": 62,
+          "cache_write": 433590,
+          "cache_read": 2348627,
+          "output": 19540
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 170371,
+          "cache_read": 556319,
+          "output": 5074
+        },
+        "main": {
+          "requests": 97,
+          "input": 214,
+          "cache_write": 220960,
+          "cache_read": 39224454,
+          "output": 38166
+        },
+        "other": {
+          "requests": 36,
+          "input": 68,
+          "cache_write": 662376,
+          "cache_read": 2079696,
+          "output": 13152
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 42,
+      "additions": 176,
+      "deletions": 2105,
+      "commits": 6,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 13,
+      "test_runs": 5,
+      "active_s": 4821.398,
+      "wall_s": 9306.595,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 204413,
+          "cache_read": 1050597,
+          "output": 17216
+        },
+        "forge:docs-types-checker": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 170974,
+          "cache_read": 824781,
+          "output": 6791
+        },
+        "forge:pr-manager": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 95319,
+          "cache_read": 791118,
+          "output": 8157
+        },
+        "forge:precommit-fixer": {
+          "requests": 39,
+          "input": 80,
+          "cache_write": 506338,
+          "cache_read": 2902223,
+          "output": 24726
+        },
+        "forge:prior-art": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 73449,
+          "cache_read": 67026,
+          "output": 4502
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 83332,
+          "cache_read": 232831,
+          "output": 2735
+        },
+        "general-purpose": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 224431,
+          "cache_read": 1291820,
+          "output": 9370
+        },
+        "main": {
+          "requests": 153,
+          "input": 306,
+          "cache_write": 295560,
+          "cache_read": 47865779,
+          "output": 143063
+        },
+        "other": {
+          "requests": 52,
+          "input": 118,
+          "cache_write": 670352,
+          "cache_read": 3295858,
+          "output": 28193
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 19,
+      "additions": 1267,
+      "deletions": 210,
+      "commits": 2,
+      "review_rounds": 7,
+      "wrapups_posted": 1,
+      "precommit_runs": 14,
+      "test_runs": 4,
+      "active_s": 4538.03,
+      "wall_s": 23161.799,
+      "tokens": {
+        "Explore": {
+          "requests": 18,
+          "input": 36,
+          "cache_write": 80063,
+          "cache_read": 1053581,
+          "output": 10218
+        },
+        "forge:design-checker": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 120331,
+          "cache_read": 540345,
+          "output": 6013
+        },
+        "forge:docs-types-checker": {
+          "requests": 26,
+          "input": 54,
+          "cache_write": 298650,
+          "cache_read": 874003,
+          "output": 12641
+        },
+        "forge:pr-manager": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 48349,
+          "cache_read": 89617,
+          "output": 1666
+        },
+        "forge:precommit-fixer": {
+          "requests": 69,
+          "input": 144,
+          "cache_write": 469436,
+          "cache_read": 4396315,
+          "output": 36322
+        },
+        "forge:prior-art": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 105166,
+          "cache_read": 890491,
+          "output": 34892
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 47072,
+          "cache_read": 130783,
+          "output": 1124
+        },
+        "forge:test-advisor": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 96812,
+          "cache_read": 133989,
+          "output": 4508
+        },
+        "forge:test-writer": {
+          "requests": 35,
+          "input": 70,
+          "cache_write": 191858,
+          "cache_read": 1978637,
+          "output": 28670
+        },
+        "general-purpose": {
+          "requests": 54,
+          "input": 110,
+          "cache_write": 265070,
+          "cache_read": 6222118,
+          "output": 44270
+        },
+        "main": {
+          "requests": 102,
+          "input": 204,
+          "cache_write": 222531,
+          "cache_read": 23764130,
+          "output": 46489
+        },
+        "other": {
+          "requests": 20,
+          "input": 40,
+          "cache_write": 152322,
+          "cache_read": 683411,
+          "output": 6105
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 8,
+      "additions": 465,
+      "deletions": 9,
+      "commits": 3,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 8,
+      "test_runs": 5,
+      "active_s": 1621.548,
+      "wall_s": 1621.548,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 18,
+          "input": 32,
+          "cache_write": 323867,
+          "cache_read": 1202403,
+          "output": 18972
+        },
+        "forge:docs-types-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 227299,
+          "cache_read": 305243,
+          "output": 2494
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 88308,
+          "cache_read": 583068,
+          "output": 4687
+        },
+        "forge:precommit-fixer": {
+          "requests": 23,
+          "input": 46,
+          "cache_write": 265202,
+          "cache_read": 2081038,
+          "output": 10184
+        },
+        "forge:prior-art": {
+          "requests": 7,
+          "input": 13,
+          "cache_write": 120904,
+          "cache_read": 569929,
+          "output": 24399
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 84257,
+          "cache_read": 233536,
+          "output": 1512
+        },
+        "forge:test-advisor": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 171054,
+          "cache_read": 879813,
+          "output": 12187
+        },
+        "forge:test-writer": {
+          "requests": 12,
+          "input": 28,
+          "cache_write": 105131,
+          "cache_read": 1055314,
+          "output": 10464
+        },
+        "main": {
+          "requests": 91,
+          "input": 184,
+          "cache_write": 157307,
+          "cache_read": 25978357,
+          "output": 43572
+        },
+        "other": {
+          "requests": 41,
+          "input": 90,
+          "cache_write": 564428,
+          "cache_read": 2872864,
+          "output": 32854
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.5.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 10,
+      "additions": 376,
+      "deletions": 18,
+      "commits": 7,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 12,
+      "test_runs": 3,
+      "active_s": 5021.285,
+      "wall_s": 7907.965,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 184054,
+          "cache_read": 665921,
+          "output": 7589
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 10,
+          "cache_write": 78870,
+          "cache_read": 225068,
+          "output": 2563
+        },
+        "forge:issue-triage": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 206077,
+          "cache_read": 446162,
+          "output": 4040
+        },
+        "forge:knowledge-search": {
+          "requests": 9,
+          "input": 17,
+          "cache_write": 99165,
+          "cache_read": 723076,
+          "output": 7344
+        },
+        "forge:pr-manager": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 81619,
+          "cache_read": 231453,
+          "output": 2038
+        },
+        "forge:precommit-fixer": {
+          "requests": 51,
+          "input": 106,
+          "cache_write": 476061,
+          "cache_read": 5404269,
+          "output": 25549
+        },
+        "forge:prior-art": {
+          "requests": 10,
+          "input": 19,
+          "cache_write": 109248,
+          "cache_read": 844370,
+          "output": 13999
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 82187,
+          "cache_read": 147627,
+          "output": 2075
+        },
+        "forge:test-advisor": {
+          "requests": 6,
+          "input": 10,
+          "cache_write": 146766,
+          "cache_read": 289915,
+          "output": 6855
+        },
+        "forge:test-writer": {
+          "requests": 17,
+          "input": 34,
+          "cache_write": 107734,
+          "cache_read": 1540023,
+          "output": 10157
+        },
+        "main": {
+          "requests": 130,
+          "input": 326,
+          "cache_write": 202314,
+          "cache_read": 33149057,
+          "output": 71682
+        },
+        "other": {
+          "requests": 105,
+          "input": 207,
+          "cache_write": 942562,
+          "cache_read": 8314883,
+          "output": 55297
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 21,
+      "additions": 963,
+      "deletions": 82,
+      "commits": 4,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 13,
+      "test_runs": 4,
+      "active_s": 4019.107,
+      "wall_s": 6150.607,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 17,
+          "input": 30,
+          "cache_write": 345489,
+          "cache_read": 1028406,
+          "output": 13125
+        },
+        "forge:docs-types-checker": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 172180,
+          "cache_read": 678667,
+          "output": 7116
+        },
+        "forge:pr-manager": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 73050,
+          "cache_read": 394156,
+          "output": 5064
+        },
+        "forge:precommit-fixer": {
+          "requests": 36,
+          "input": 74,
+          "cache_write": 364939,
+          "cache_read": 2752868,
+          "output": 21534
+        },
+        "forge:prior-art": {
+          "requests": 14,
+          "input": 26,
+          "cache_write": 195470,
+          "cache_read": 975881,
+          "output": 32353
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 12,
+          "cache_write": 160094,
+          "cache_read": 363737,
+          "output": 5632
+        },
+        "forge:test-advisor": {
+          "requests": 4,
+          "input": 9,
+          "cache_write": 92143,
+          "cache_read": 221046,
+          "output": 4775
+        },
+        "forge:test-writer": {
+          "requests": 24,
+          "input": 48,
+          "cache_write": 212221,
+          "cache_read": 2167131,
+          "output": 24137
+        },
+        "main": {
+          "requests": 136,
+          "input": 272,
+          "cache_write": 205757,
+          "cache_read": 48009152,
+          "output": 76904
+        },
+        "other": {
+          "requests": 80,
+          "input": 164,
+          "cache_write": 728208,
+          "cache_read": 5766834,
+          "output": 39589
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 4,
+      "additions": 43,
+      "deletions": 4,
+      "commits": 5,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 5,
+      "test_runs": 2,
+      "active_s": 4966.014,
+      "wall_s": 11923.538,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 160171,
+          "cache_read": 553146,
+          "output": 13436
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 73186,
+          "cache_read": 277125,
+          "output": 4141
+        },
+        "forge:issue-triage": {
+          "requests": 2,
+          "input": 3,
+          "cache_write": 69866,
+          "cache_read": 66356,
+          "output": 2756
+        },
+        "forge:precommit-fixer": {
+          "requests": 15,
+          "input": 30,
+          "cache_write": 253697,
+          "cache_read": 897929,
+          "output": 13231
+        },
+        "forge:prior-art": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 40121,
+          "cache_read": 808251,
+          "output": 37855
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 83466,
+          "cache_read": 381394,
+          "output": 3122
+        },
+        "main": {
+          "requests": 144,
+          "input": 288,
+          "cache_write": 179898,
+          "cache_read": 113645938,
+          "output": 105107
+        },
+        "other": {
+          "requests": 15,
+          "input": 26,
+          "cache_write": 256350,
+          "cache_read": 730293,
+          "output": 4148
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 5,
+      "additions": 19,
+      "deletions": 19,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 1,
+      "test_runs": 0,
+      "active_s": 256.936,
+      "wall_s": 256.936,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 42182,
+          "cache_read": 38946,
+          "output": 844
+        },
+        "forge:issue-triage": {
+          "requests": 1,
+          "input": 2,
+          "cache_write": 37556,
+          "cache_read": 2487,
+          "output": 154
+        },
+        "main": {
+          "requests": 9,
+          "input": 22,
+          "cache_write": 7411,
+          "cache_read": 1780115,
+          "output": 3540
+        },
+        "other": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 43087,
+          "cache_read": 37844,
+          "output": 697
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 18,
+      "additions": 1433,
+      "deletions": 408,
+      "commits": 5,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 17,
+      "test_runs": 3,
+      "active_s": 6710.7,
+      "wall_s": 35264.192,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 23,
+          "input": 41,
+          "cache_write": 411496,
+          "cache_read": 1449621,
+          "output": 17733
+        },
+        "forge:docs-types-checker": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 153453,
+          "cache_read": 884707,
+          "output": 7218
+        },
+        "forge:issue-triage": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 72524,
+          "cache_read": 346520,
+          "output": 2124
+        },
+        "forge:pr-manager": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 84092,
+          "cache_read": 635885,
+          "output": 5262
+        },
+        "forge:precommit-fixer": {
+          "requests": 42,
+          "input": 88,
+          "cache_write": 527131,
+          "cache_read": 3128756,
+          "output": 22430
+        },
+        "forge:prior-art": {
+          "requests": 7,
+          "input": 13,
+          "cache_write": 111911,
+          "cache_read": 543482,
+          "output": 17683
+        },
+        "forge:security-checker": {
+          "requests": 14,
+          "input": 26,
+          "cache_write": 170246,
+          "cache_read": 956715,
+          "output": 7060
+        },
+        "general-purpose": {
+          "requests": 195,
+          "input": 404,
+          "cache_write": 985947,
+          "cache_read": 26766951,
+          "output": 142110
+        },
+        "main": {
+          "requests": 133,
+          "input": 268,
+          "cache_write": 432838,
+          "cache_read": 45113808,
+          "output": 64899
+        },
+        "other": {
+          "requests": 107,
+          "input": 223,
+          "cache_write": 1298281,
+          "cache_read": 7707400,
+          "output": 69443
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 43,
+      "additions": 461,
+      "deletions": 291,
+      "commits": 3,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 13,
+      "test_runs": 12,
+      "active_s": 4185.023,
+      "wall_s": 4462.652,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 46,
+          "input": 89,
+          "cache_write": 316606,
+          "cache_read": 4687006,
+          "output": 50318
+        },
+        "forge:docs-types-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 81459,
+          "cache_read": 536104,
+          "output": 3952
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 82773,
+          "cache_read": 310314,
+          "output": 5491
+        },
+        "forge:precommit-fixer": {
+          "requests": 40,
+          "input": 82,
+          "cache_write": 364220,
+          "cache_read": 3072678,
+          "output": 20259
+        },
+        "forge:prior-art": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 89680,
+          "cache_read": 374866,
+          "output": 13396
+        },
+        "forge:security-checker": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 84498,
+          "cache_read": 313939,
+          "output": 3480
+        },
+        "forge:test-advisor": {
+          "requests": 11,
+          "input": 20,
+          "cache_write": 142642,
+          "cache_read": 618523,
+          "output": 9781
+        },
+        "forge:test-writer": {
+          "requests": 4,
+          "input": 10,
+          "cache_write": 80447,
+          "cache_read": 198379,
+          "output": 4095
+        },
+        "main": {
+          "requests": 155,
+          "input": 310,
+          "cache_write": 381465,
+          "cache_read": 66697421,
+          "output": 144824
+        },
+        "other": {
+          "requests": 27,
+          "input": 58,
+          "cache_write": 375101,
+          "cache_read": 1535764,
+          "output": 22055
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 6,
+      "additions": 236,
+      "deletions": 22,
+      "commits": 3,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 8,
+      "test_runs": 3,
+      "active_s": 2658.339,
+      "wall_s": 3683.822,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 153983,
+          "cache_read": 640869,
+          "output": 5214
+        },
+        "forge:docs-types-checker": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 160230,
+          "cache_read": 657132,
+          "output": 5584
+        },
+        "forge:issue-triage": {
+          "requests": 1,
+          "input": 2,
+          "cache_write": 63183,
+          "cache_read": 2487,
+          "output": 120
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 79559,
+          "cache_read": 300375,
+          "output": 2939
+        },
+        "forge:precommit-fixer": {
+          "requests": 17,
+          "input": 34,
+          "cache_write": 249606,
+          "cache_read": 1059928,
+          "output": 9587
+        },
+        "forge:security-checker": {
+          "requests": 12,
+          "input": 22,
+          "cache_write": 167380,
+          "cache_read": 764666,
+          "output": 5599
+        },
+        "forge:test-writer": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 89121,
+          "cache_read": 580991,
+          "output": 5493
+        },
+        "main": {
+          "requests": 90,
+          "input": 178,
+          "cache_write": 101537,
+          "cache_read": 46088585,
+          "output": 44065
+        },
+        "other": {
+          "requests": 13,
+          "input": 25,
+          "cache_write": 197804,
+          "cache_read": 671260,
+          "output": 3935
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 2,
+      "additions": 14,
+      "deletions": 0,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 710.153,
+      "wall_s": 710.153,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 8,
+          "input": 15,
+          "cache_write": 89555,
+          "cache_read": 563690,
+          "output": 5556
+        },
+        "forge:docs-types-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 73613,
+          "cache_read": 426250,
+          "output": 3793
+        },
+        "forge:precommit-fixer": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 145504,
+          "cache_read": 516840,
+          "output": 5381
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 3,
+          "cache_write": 72066,
+          "cache_read": 64736,
+          "output": 1558
+        },
+        "main": {
+          "requests": 48,
+          "input": 96,
+          "cache_write": 58392,
+          "cache_read": 28254229,
+          "output": 31969
+        },
+        "other": {
+          "requests": 10,
+          "input": 17,
+          "cache_write": 177413,
+          "cache_read": 474407,
+          "output": 2699
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 12,
+      "additions": 2015,
+      "deletions": 90,
+      "commits": 17,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 21,
+      "test_runs": 5,
+      "active_s": 7186.046,
+      "wall_s": 21242.657,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 29,
+          "input": 53,
+          "cache_write": 456287,
+          "cache_read": 2114036,
+          "output": 26085
+        },
+        "forge:docs-types-checker": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 159316,
+          "cache_read": 534780,
+          "output": 5261
+        },
+        "forge:issue-triage": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 74646,
+          "cache_read": 292359,
+          "output": 1184
+        },
+        "forge:pr-manager": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 161975,
+          "cache_read": 536473,
+          "output": 4638
+        },
+        "forge:precommit-fixer": {
+          "requests": 61,
+          "input": 128,
+          "cache_write": 565454,
+          "cache_read": 5236772,
+          "output": 32703
+        },
+        "forge:prior-art": {
+          "requests": 16,
+          "input": 32,
+          "cache_write": 231149,
+          "cache_read": 1301266,
+          "output": 37835
+        },
+        "forge:security-checker": {
+          "requests": 12,
+          "input": 22,
+          "cache_write": 157577,
+          "cache_read": 783602,
+          "output": 5105
+        },
+        "forge:test-advisor": {
+          "requests": 21,
+          "input": 40,
+          "cache_write": 352118,
+          "cache_read": 1458912,
+          "output": 24501
+        },
+        "forge:test-writer": {
+          "requests": 77,
+          "input": 160,
+          "cache_write": 650234,
+          "cache_read": 12478526,
+          "output": 81061
+        },
+        "general-purpose": {
+          "requests": 112,
+          "input": 260,
+          "cache_write": 939414,
+          "cache_read": 27892693,
+          "output": 84323
+        },
+        "main": {
+          "requests": 156,
+          "input": 316,
+          "cache_write": 204694,
+          "cache_read": 52642254,
+          "output": 69691
+        },
+        "other": {
+          "requests": 89,
+          "input": 174,
+          "cache_write": 1210492,
+          "cache_read": 6375354,
+          "output": 49526
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 18,
+      "additions": 256,
+      "deletions": 113,
+      "commits": 6,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 7,
+      "test_runs": 2,
+      "active_s": 2484.52,
+      "wall_s": 3467.7,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 96941,
+          "cache_read": 238198,
+          "output": 3585
+        },
+        "forge:docs-types-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 97081,
+          "cache_read": 226269,
+          "output": 3922
+        },
+        "forge:pr-manager": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 48526,
+          "cache_read": 89307,
+          "output": 1876
+        },
+        "forge:precommit-fixer": {
+          "requests": 24,
+          "input": 50,
+          "cache_write": 206231,
+          "cache_read": 900836,
+          "output": 10488
+        },
+        "forge:prior-art": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 54629,
+          "cache_read": 357376,
+          "output": 8245
+        },
+        "forge:security-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 96378,
+          "cache_read": 274326,
+          "output": 2966
+        },
+        "forge:test-writer": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 51772,
+          "cache_read": 227813,
+          "output": 3797
+        },
+        "main": {
+          "requests": 93,
+          "input": 186,
+          "cache_write": 103649,
+          "cache_read": 58140780,
+          "output": 37723
+        },
+        "other": {
+          "requests": 36,
+          "input": 74,
+          "cache_write": 268340,
+          "cache_read": 1222673,
+          "output": 8793
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 16,
+      "additions": 1273,
+      "deletions": 433,
+      "commits": 5,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 10,
+      "active_s": 10678.2,
+      "wall_s": 64864.711,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 32,
+          "input": 64,
+          "cache_write": 394935,
+          "cache_read": 2539269,
+          "output": 26740
+        },
+        "forge:docs-types-checker": {
+          "requests": 41,
+          "input": 84,
+          "cache_write": 287670,
+          "cache_read": 3272397,
+          "output": 24702
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 82620,
+          "cache_read": 539554,
+          "output": 5918
+        },
+        "forge:precommit-fixer": {
+          "requests": 50,
+          "input": 106,
+          "cache_write": 648844,
+          "cache_read": 4017767,
+          "output": 32509
+        },
+        "forge:prior-art": {
+          "requests": 15,
+          "input": 32,
+          "cache_write": 124303,
+          "cache_read": 1324004,
+          "output": 30458
+        },
+        "forge:security-checker": {
+          "requests": 30,
+          "input": 60,
+          "cache_write": 295841,
+          "cache_read": 2378845,
+          "output": 20061
+        },
+        "forge:test-advisor": {
+          "requests": 25,
+          "input": 50,
+          "cache_write": 244985,
+          "cache_read": 2257346,
+          "output": 38149
+        },
+        "forge:test-writer": {
+          "requests": 74,
+          "input": 148,
+          "cache_write": 210428,
+          "cache_read": 11770612,
+          "output": 54528
+        },
+        "general-purpose": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 106926,
+          "cache_read": 1105151,
+          "output": 7132
+        },
+        "main": {
+          "requests": 381,
+          "input": 760,
+          "cache_write": 1652646,
+          "cache_read": 194385394,
+          "output": 304571
+        },
+        "other": {
+          "requests": 41,
+          "input": 89,
+          "cache_write": 775168,
+          "cache_read": 2210729,
+          "output": 29115
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 27,
+      "additions": 2802,
+      "deletions": 216,
+      "commits": 3,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 14,
+      "test_runs": 5,
+      "active_s": 3613.141,
+      "wall_s": 3976.02,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 22,
+          "input": 44,
+          "cache_write": 245994,
+          "cache_read": 901777,
+          "output": 14114
+        },
+        "forge:docs-types-checker": {
+          "requests": 16,
+          "input": 34,
+          "cache_write": 148150,
+          "cache_read": 610402,
+          "output": 10279
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 45796,
+          "cache_read": 84821,
+          "output": 1464
+        },
+        "forge:pr-manager": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 44723,
+          "cache_read": 94644,
+          "output": 2334
+        },
+        "forge:precommit-fixer": {
+          "requests": 45,
+          "input": 90,
+          "cache_write": 524004,
+          "cache_read": 2349074,
+          "output": 26609
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 125841,
+          "cache_read": 242780,
+          "output": 10178
+        },
+        "forge:test-advisor": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 122574,
+          "cache_read": 348545,
+          "output": 9478
+        },
+        "forge:test-writer": {
+          "requests": 23,
+          "input": 46,
+          "cache_write": 176955,
+          "cache_read": 1523375,
+          "output": 36295
+        },
+        "main": {
+          "requests": 127,
+          "input": 272,
+          "cache_write": 245888,
+          "cache_read": 55579244,
+          "output": 105524
+        },
+        "other": {
+          "requests": 23,
+          "input": 46,
+          "cache_write": 168077,
+          "cache_read": 800215,
+          "output": 7046
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.6.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 4,
+      "additions": 21,
+      "deletions": 17,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 6,
+      "test_runs": 0,
+      "active_s": 620.271,
+      "wall_s": 620.271,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 84632,
+          "cache_read": 197127,
+          "output": 3984
+        },
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 39664,
+          "cache_read": 41719,
+          "output": 868
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 39105,
+          "cache_read": 83855,
+          "output": 543
+        },
+        "forge:precommit-fixer": {
+          "requests": 15,
+          "input": 30,
+          "cache_write": 127577,
+          "cache_read": 564465,
+          "output": 7306
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 8,
+          "cache_write": 43238,
+          "cache_read": 89659,
+          "output": 2521
+        },
+        "main": {
+          "requests": 47,
+          "input": 98,
+          "cache_write": 51737,
+          "cache_read": 11021227,
+          "output": 19511
+        },
+        "other": {
+          "requests": 17,
+          "input": 40,
+          "cache_write": 123855,
+          "cache_read": 591384,
+          "output": 4744
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 10,
+      "additions": 1728,
+      "deletions": 60,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 14,
+      "test_runs": 3,
+      "active_s": 3535.948,
+      "wall_s": 17820.429,
+      "tokens": {
+        "claude-code-guide": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 60130,
+          "cache_read": 115486,
+          "output": 1858
+        },
+        "forge:design-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 107044,
+          "cache_read": 296173,
+          "output": 5104
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 62553,
+          "cache_read": 201501,
+          "output": 2490
+        },
+        "forge:issue-triage": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 43673,
+          "cache_read": 257926,
+          "output": 2678
+        },
+        "forge:precommit-fixer": {
+          "requests": 44,
+          "input": 90,
+          "cache_write": 214086,
+          "cache_read": 2162426,
+          "output": 24890
+        },
+        "forge:prior-art": {
+          "requests": 5,
+          "input": 12,
+          "cache_write": 59887,
+          "cache_read": 197016,
+          "output": 6779
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 56419,
+          "cache_read": 244314,
+          "output": 1765
+        },
+        "forge:test-advisor": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 84608,
+          "cache_read": 167794,
+          "output": 3936
+        },
+        "forge:test-writer": {
+          "requests": 19,
+          "input": 38,
+          "cache_write": 159733,
+          "cache_read": 892220,
+          "output": 21876
+        },
+        "main": {
+          "requests": 113,
+          "input": 226,
+          "cache_write": 1503923,
+          "cache_read": 71721309,
+          "output": 84573
+        },
+        "other": {
+          "requests": 20,
+          "input": 44,
+          "cache_write": 119074,
+          "cache_read": 725410,
+          "output": 5704
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 7,
+      "additions": 151,
+      "deletions": 220,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 846.821,
+      "wall_s": 846.821,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 43656,
+          "cache_read": 130595,
+          "output": 1825
+        },
+        "forge:precommit-fixer": {
+          "requests": 12,
+          "input": 26,
+          "cache_write": 95553,
+          "cache_read": 476815,
+          "output": 5937
+        },
+        "forge:prior-art": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 41477,
+          "cache_read": 79979,
+          "output": 4257
+        },
+        "main": {
+          "requests": 36,
+          "input": 72,
+          "cache_write": 37237,
+          "cache_read": 10527466,
+          "output": 16572
+        },
+        "other": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 109700,
+          "cache_read": 425171,
+          "output": 3042
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 32,
+      "additions": 1833,
+      "deletions": 319,
+      "commits": 9,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 21,
+      "test_runs": 10,
+      "active_s": 10853.068,
+      "wall_s": 22597.863,
+      "tokens": {
+        "Explore": {
+          "requests": 1,
+          "input": 2,
+          "cache_write": 16473,
+          "cache_read": 0,
+          "output": 224
+        },
+        "forge:design-checker": {
+          "requests": 25,
+          "input": 45,
+          "cache_write": 438911,
+          "cache_read": 1658037,
+          "output": 21864
+        },
+        "forge:docs-types-checker": {
+          "requests": 27,
+          "input": 54,
+          "cache_write": 335924,
+          "cache_read": 1916081,
+          "output": 14299
+        },
+        "forge:issue-triage": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 63810,
+          "cache_read": 546291,
+          "output": 2538
+        },
+        "forge:pr-manager": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 82304,
+          "cache_read": 623028,
+          "output": 3632
+        },
+        "forge:precommit-fixer": {
+          "requests": 68,
+          "input": 144,
+          "cache_write": 662097,
+          "cache_read": 5444737,
+          "output": 39562
+        },
+        "forge:prior-art": {
+          "requests": 13,
+          "input": 25,
+          "cache_write": 148328,
+          "cache_read": 1386929,
+          "output": 31637
+        },
+        "forge:security-checker": {
+          "requests": 11,
+          "input": 20,
+          "cache_write": 176428,
+          "cache_read": 716311,
+          "output": 5200
+        },
+        "forge:test-writer": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 119518,
+          "cache_read": 1044193,
+          "output": 9220
+        },
+        "main": {
+          "requests": 141,
+          "input": 336,
+          "cache_write": 175309,
+          "cache_read": 86755002,
+          "output": 71416
+        },
+        "other": {
+          "requests": 325,
+          "input": 661,
+          "cache_write": 1632182,
+          "cache_read": 53837353,
+          "output": 211072
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 9,
+      "additions": 696,
+      "deletions": 330,
+      "commits": 5,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 4,
+      "active_s": 5194.097,
+      "wall_s": 5704.827,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 12,
+          "input": 21,
+          "cache_write": 219887,
+          "cache_read": 697951,
+          "output": 9383
+        },
+        "forge:docs-types-checker": {
+          "requests": 14,
+          "input": 30,
+          "cache_write": 158910,
+          "cache_read": 890945,
+          "output": 8217
+        },
+        "forge:pr-manager": {
+          "requests": 17,
+          "input": 34,
+          "cache_write": 221687,
+          "cache_read": 1044748,
+          "output": 9270
+        },
+        "forge:precommit-fixer": {
+          "requests": 38,
+          "input": 78,
+          "cache_write": 447697,
+          "cache_read": 2881414,
+          "output": 21343
+        },
+        "forge:security-checker": {
+          "requests": 13,
+          "input": 24,
+          "cache_write": 160522,
+          "cache_read": 843543,
+          "output": 7511
+        },
+        "forge:test-advisor": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 67415,
+          "cache_read": 127673,
+          "output": 2909
+        },
+        "forge:test-writer": {
+          "requests": 9,
+          "input": 20,
+          "cache_write": 93070,
+          "cache_read": 607255,
+          "output": 7434
+        },
+        "main": {
+          "requests": 164,
+          "input": 328,
+          "cache_write": 278310,
+          "cache_read": 65617296,
+          "output": 168669
+        },
+        "other": {
+          "requests": 28,
+          "input": 58,
+          "cache_write": 376804,
+          "cache_read": 1507876,
+          "output": 8668
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 6,
+      "additions": 379,
+      "deletions": 0,
+      "commits": 3,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 11,
+      "test_runs": 6,
+      "active_s": 7105.613,
+      "wall_s": 16688.072,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 11,
+          "input": 20,
+          "cache_write": 170159,
+          "cache_read": 750980,
+          "output": 13443
+        },
+        "forge:docs-types-checker": {
+          "requests": 8,
+          "input": 18,
+          "cache_write": 83046,
+          "cache_read": 538069,
+          "output": 5075
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 71385,
+          "cache_read": 544809,
+          "output": 5377
+        },
+        "forge:precommit-fixer": {
+          "requests": 28,
+          "input": 58,
+          "cache_write": 291947,
+          "cache_read": 2311696,
+          "output": 16699
+        },
+        "forge:prior-art": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 99491,
+          "cache_read": 710721,
+          "output": 14592
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 68985,
+          "cache_read": 224139,
+          "output": 2735
+        },
+        "forge:test-advisor": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 167351,
+          "cache_read": 598979,
+          "output": 14813
+        },
+        "forge:test-writer": {
+          "requests": 19,
+          "input": 38,
+          "cache_write": 100517,
+          "cache_read": 1649016,
+          "output": 11747
+        },
+        "main": {
+          "requests": 198,
+          "input": 396,
+          "cache_write": 738993,
+          "cache_read": 65654901,
+          "output": 183074
+        },
+        "other": {
+          "requests": 33,
+          "input": 71,
+          "cache_write": 481823,
+          "cache_read": 2230472,
+          "output": 31614
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 25,
+      "additions": 1459,
+      "deletions": 382,
+      "commits": 3,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 11,
+      "test_runs": 11,
+      "active_s": 5250.782,
+      "wall_s": 16057.222,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 17,
+          "input": 32,
+          "cache_write": 198938,
+          "cache_read": 1368637,
+          "output": 14164
+        },
+        "forge:docs-types-checker": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 229466,
+          "cache_read": 913552,
+          "output": 7110
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 69434,
+          "cache_read": 203522,
+          "output": 1169
+        },
+        "forge:pr-manager": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 81513,
+          "cache_read": 464002,
+          "output": 3414
+        },
+        "forge:precommit-fixer": {
+          "requests": 52,
+          "input": 116,
+          "cache_write": 307632,
+          "cache_read": 4317655,
+          "output": 25065
+        },
+        "forge:prior-art": {
+          "requests": 9,
+          "input": 17,
+          "cache_write": 110019,
+          "cache_read": 711779,
+          "output": 20742
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 87279,
+          "cache_read": 385100,
+          "output": 3372
+        },
+        "main": {
+          "requests": 93,
+          "input": 188,
+          "cache_write": 622021,
+          "cache_read": 21718376,
+          "output": 40304
+        },
+        "other": {
+          "requests": 82,
+          "input": 162,
+          "cache_write": 805920,
+          "cache_read": 8828045,
+          "output": 76096
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 5,
+      "additions": 15,
+      "deletions": 13,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 1,
+      "test_runs": 0,
+      "active_s": 246.215,
+      "wall_s": 246.215,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 45299,
+          "cache_read": 219093,
+          "output": 2478
+        },
+        "forge:issue-triage": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 40295,
+          "cache_read": 42507,
+          "output": 464
+        },
+        "main": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 11086,
+          "cache_read": 1208962,
+          "output": 3757
+        },
+        "other": {
+          "requests": 4,
+          "input": 12,
+          "cache_write": 45271,
+          "cache_read": 125005,
+          "output": 1358
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 2,
+      "additions": 16,
+      "deletions": 9,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 510.597,
+      "wall_s": 510.597,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 62895,
+          "cache_read": 139723,
+          "output": 2392
+        },
+        "forge:precommit-fixer": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 148993,
+          "cache_read": 510006,
+          "output": 7981
+        },
+        "main": {
+          "requests": 44,
+          "input": 88,
+          "cache_write": 42955,
+          "cache_read": 11108662,
+          "output": 22553
+        },
+        "other": {
+          "requests": 6,
+          "input": 10,
+          "cache_write": 124306,
+          "cache_read": 264332,
+          "output": 1319
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 9,
+      "additions": 163,
+      "deletions": 8,
+      "commits": 3,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 10,
+      "test_runs": 7,
+      "active_s": 2308.183,
+      "wall_s": 4509.465,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 54257,
+          "cache_read": 90320,
+          "output": 1339
+        },
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 92641,
+          "cache_read": 167957,
+          "output": 1621
+        },
+        "forge:issue-triage": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 46031,
+          "cache_read": 256653,
+          "output": 3486
+        },
+        "forge:precommit-fixer": {
+          "requests": 37,
+          "input": 80,
+          "cache_write": 141799,
+          "cache_read": 1788722,
+          "output": 19870
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 45537,
+          "cache_read": 39819,
+          "output": 696
+        },
+        "forge:test-writer": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 48239,
+          "cache_read": 304257,
+          "output": 4579
+        },
+        "main": {
+          "requests": 63,
+          "input": 128,
+          "cache_write": 78130,
+          "cache_read": 48201185,
+          "output": 29448
+        },
+        "other": {
+          "requests": 18,
+          "input": 40,
+          "cache_write": 160651,
+          "cache_read": 598173,
+          "output": 5596
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 3,
+      "additions": 81,
+      "deletions": 0,
+      "commits": 9,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 16,
+      "test_runs": 0,
+      "active_s": 7585.253,
+      "wall_s": 13407.133,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 14,
+          "input": 27,
+          "cache_write": 237263,
+          "cache_read": 840335,
+          "output": 12949
+        },
+        "forge:docs-types-checker": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 210367,
+          "cache_read": 555719,
+          "output": 9985
+        },
+        "forge:pr-manager": {
+          "requests": 14,
+          "input": 32,
+          "cache_write": 164805,
+          "cache_read": 918612,
+          "output": 8292
+        },
+        "forge:precommit-fixer": {
+          "requests": 37,
+          "input": 74,
+          "cache_write": 537662,
+          "cache_read": 2216495,
+          "output": 22294
+        },
+        "forge:prior-art": {
+          "requests": 8,
+          "input": 18,
+          "cache_write": 96742,
+          "cache_read": 546322,
+          "output": 21663
+        },
+        "forge:security-checker": {
+          "requests": 14,
+          "input": 26,
+          "cache_write": 297228,
+          "cache_read": 713937,
+          "output": 15180
+        },
+        "main": {
+          "requests": 194,
+          "input": 388,
+          "cache_write": 324795,
+          "cache_read": 135298039,
+          "output": 181758
+        },
+        "other": {
+          "requests": 56,
+          "input": 116,
+          "cache_write": 491650,
+          "cache_read": 4101308,
+          "output": 25254
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 6,
+      "additions": 31,
+      "deletions": 20,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 2,
+      "test_runs": 0,
+      "active_s": 1885.473,
+      "wall_s": 10348.372,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 49861,
+          "cache_read": 90836,
+          "output": 1153
+        },
+        "forge:docs-types-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 44084,
+          "cache_read": 82508,
+          "output": 972
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 44037,
+          "cache_read": 132566,
+          "output": 2606
+        },
+        "forge:precommit-fixer": {
+          "requests": 11,
+          "input": 24,
+          "cache_write": 93457,
+          "cache_read": 416683,
+          "output": 4797
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 45457,
+          "cache_read": 39718,
+          "output": 570
+        },
+        "main": {
+          "requests": 44,
+          "input": 88,
+          "cache_write": 256785,
+          "cache_read": 10618965,
+          "output": 24040
+        },
+        "other": {
+          "requests": 22,
+          "input": 48,
+          "cache_write": 227767,
+          "cache_read": 676981,
+          "output": 6655
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 5,
+      "additions": 110,
+      "deletions": 38,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 5,
+      "test_runs": 1,
+      "active_s": 674.758,
+      "wall_s": 674.758,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 91231,
+          "cache_read": 195729,
+          "output": 2848
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 12,
+          "cache_write": 53596,
+          "cache_read": 190415,
+          "output": 3465
+        },
+        "forge:precommit-fixer": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 115500,
+          "cache_read": 426290,
+          "output": 6112
+        },
+        "forge:prior-art": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 43254,
+          "cache_read": 117085,
+          "output": 3649
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 49124,
+          "cache_read": 88292,
+          "output": 1016
+        },
+        "main": {
+          "requests": 60,
+          "input": 120,
+          "cache_write": 74289,
+          "cache_read": 10344373,
+          "output": 25988
+        },
+        "other": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 108987,
+          "cache_read": 382064,
+          "output": 3240
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 2,
+      "additions": 7,
+      "deletions": 1,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 1231.053,
+      "wall_s": 2397.96,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 46458,
+          "cache_read": 41494,
+          "output": 663
+        },
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 40789,
+          "cache_read": 38837,
+          "output": 517
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 39855,
+          "cache_read": 126126,
+          "output": 1087
+        },
+        "forge:precommit-fixer": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 42309,
+          "cache_read": 439001,
+          "output": 3087
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 45004,
+          "cache_read": 84503,
+          "output": 660
+        },
+        "main": {
+          "requests": 34,
+          "input": 68,
+          "cache_write": 40469,
+          "cache_read": 15046159,
+          "output": 17870
+        },
+        "other": {
+          "requests": 11,
+          "input": 26,
+          "cache_write": 117849,
+          "cache_read": 334804,
+          "output": 2989
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 4,
+      "additions": 59,
+      "deletions": 12,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 0,
+      "active_s": 2981.3,
+      "wall_s": 6604.059,
+      "tokens": {
+        "Explore": {
+          "requests": 18,
+          "input": 36,
+          "cache_write": 61937,
+          "cache_read": 805581,
+          "output": 9384
+        },
+        "forge:design-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 46905,
+          "cache_read": 93277,
+          "output": 1175
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 12,
+          "cache_write": 41782,
+          "cache_read": 170786,
+          "output": 1528
+        },
+        "forge:issue-triage": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 125673,
+          "cache_read": 255780,
+          "output": 3754
+        },
+        "forge:precommit-fixer": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 84481,
+          "cache_read": 471155,
+          "output": 4804
+        },
+        "forge:prior-art": {
+          "requests": 6,
+          "input": 14,
+          "cache_write": 56982,
+          "cache_read": 240821,
+          "output": 6467
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 40204,
+          "cache_read": 43769,
+          "output": 407
+        },
+        "main": {
+          "requests": 58,
+          "input": 126,
+          "cache_write": 72712,
+          "cache_read": 29104916,
+          "output": 35977
+        },
+        "other": {
+          "requests": 17,
+          "input": 38,
+          "cache_write": 171150,
+          "cache_read": 541286,
+          "output": 5676
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 5,
+      "additions": 80,
+      "deletions": 19,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 3,
+      "test_runs": 0,
+      "active_s": 1307.544,
+      "wall_s": 8316.807,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 48013,
+          "cache_read": 45707,
+          "output": 960
+        },
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 46028,
+          "cache_read": 38890,
+          "output": 790
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 42265,
+          "cache_read": 123427,
+          "output": 942
+        },
+        "forge:precommit-fixer": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 87226,
+          "cache_read": 274890,
+          "output": 4025
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 47009,
+          "cache_read": 39795,
+          "output": 684
+        },
+        "main": {
+          "requests": 36,
+          "input": 72,
+          "cache_write": 387024,
+          "cache_read": 12075590,
+          "output": 20745
+        },
+        "other": {
+          "requests": 15,
+          "input": 34,
+          "cache_write": 120355,
+          "cache_read": 503240,
+          "output": 3945
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 10,
+      "additions": 215,
+      "deletions": 662,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 5,
+      "test_runs": 0,
+      "active_s": 856.352,
+      "wall_s": 2367.465,
+      "tokens": {
+        "Explore": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 58711,
+          "cache_read": 286836,
+          "output": 4568
+        },
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 50881,
+          "cache_read": 139162,
+          "output": 1432
+        },
+        "forge:docs-types-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 55651,
+          "cache_read": 341183,
+          "output": 3333
+        },
+        "forge:precommit-fixer": {
+          "requests": 11,
+          "input": 24,
+          "cache_write": 91921,
+          "cache_read": 423491,
+          "output": 6460
+        },
+        "forge:prior-art": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 51481,
+          "cache_read": 133719,
+          "output": 4173
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 45585,
+          "cache_read": 84243,
+          "output": 702
+        },
+        "main": {
+          "requests": 40,
+          "input": 98,
+          "cache_write": 47377,
+          "cache_read": 15990665,
+          "output": 18879
+        },
+        "other": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 78123,
+          "cache_read": 375894,
+          "output": 2534
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 26,
+      "additions": 3120,
+      "deletions": 221,
+      "commits": 8,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 20,
+      "test_runs": 14,
+      "active_s": 8323.968,
+      "wall_s": 8323.968,
+      "tokens": {
+        "Explore": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 19340,
+          "cache_read": 35435,
+          "output": 1290
+        },
+        "forge:design-checker": {
+          "requests": 22,
+          "input": 41,
+          "cache_write": 290698,
+          "cache_read": 1786183,
+          "output": 21657
+        },
+        "forge:docs-types-checker": {
+          "requests": 29,
+          "input": 62,
+          "cache_write": 348892,
+          "cache_read": 1993718,
+          "output": 22854
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 62785,
+          "cache_read": 213183,
+          "output": 1429
+        },
+        "forge:pr-manager": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 84694,
+          "cache_read": 961639,
+          "output": 6564
+        },
+        "forge:precommit-fixer": {
+          "requests": 72,
+          "input": 154,
+          "cache_write": 563747,
+          "cache_read": 7050798,
+          "output": 42998
+        },
+        "forge:prior-art": {
+          "requests": 9,
+          "input": 19,
+          "cache_write": 104887,
+          "cache_read": 674880,
+          "output": 21599
+        },
+        "forge:security-checker": {
+          "requests": 16,
+          "input": 29,
+          "cache_write": 260259,
+          "cache_read": 1054170,
+          "output": 15050
+        },
+        "main": {
+          "requests": 108,
+          "input": 272,
+          "cache_write": 269549,
+          "cache_read": 87735902,
+          "output": 57620
+        },
+        "other": {
+          "requests": 161,
+          "input": 326,
+          "cache_write": 1812059,
+          "cache_read": 32030531,
+          "output": 178261
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 4,
+      "additions": 126,
+      "deletions": 10,
+      "commits": 5,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 12,
+      "test_runs": 0,
+      "active_s": 2349.2690000000002,
+      "wall_s": 2349.269,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 7,
+          "input": 12,
+          "cache_write": 140196,
+          "cache_read": 384371,
+          "output": 7726
+        },
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 140049,
+          "cache_read": 271192,
+          "output": 7881
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 79148,
+          "cache_read": 298216,
+          "output": 3110
+        },
+        "forge:precommit-fixer": {
+          "requests": 29,
+          "input": 60,
+          "cache_write": 400145,
+          "cache_read": 1790480,
+          "output": 19597
+        },
+        "forge:security-checker": {
+          "requests": 8,
+          "input": 14,
+          "cache_write": 153141,
+          "cache_read": 429922,
+          "output": 6367
+        },
+        "main": {
+          "requests": 105,
+          "input": 210,
+          "cache_write": 244709,
+          "cache_read": 73313324,
+          "output": 71246
+        },
+        "other": {
+          "requests": 30,
+          "input": 60,
+          "cache_write": 409886,
+          "cache_read": 1607352,
+          "output": 9793
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.7.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 17,
+      "additions": 1431,
+      "deletions": 318,
+      "commits": 5,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 16,
+      "test_runs": 17,
+      "active_s": 7635.641,
+      "wall_s": 9882.614,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 19,
+          "input": 35,
+          "cache_write": 276319,
+          "cache_read": 1412570,
+          "output": 26053
+        },
+        "forge:docs-types-checker": {
+          "requests": 16,
+          "input": 34,
+          "cache_write": 230390,
+          "cache_read": 1020068,
+          "output": 13018
+        },
+        "forge:pr-manager": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 89538,
+          "cache_read": 657290,
+          "output": 9417
+        },
+        "forge:precommit-fixer": {
+          "requests": 47,
+          "input": 100,
+          "cache_write": 601000,
+          "cache_read": 3513948,
+          "output": 32974
+        },
+        "forge:prior-art": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 148373,
+          "cache_read": 1239807,
+          "output": 28156
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 86210,
+          "cache_read": 396937,
+          "output": 4019
+        },
+        "forge:test-advisor": {
+          "requests": 8,
+          "input": 14,
+          "cache_write": 160647,
+          "cache_read": 432664,
+          "output": 13883
+        },
+        "forge:test-writer": {
+          "requests": 26,
+          "input": 52,
+          "cache_write": 216353,
+          "cache_read": 2366712,
+          "output": 31418
+        },
+        "main": {
+          "requests": 274,
+          "input": 548,
+          "cache_write": 503386,
+          "cache_read": 183846598,
+          "output": 265696
+        },
+        "other": {
+          "requests": 49,
+          "input": 102,
+          "cache_write": 560045,
+          "cache_read": 3680406,
+          "output": 39598
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 10,
+      "additions": 54,
+      "deletions": 5,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 2,
+      "test_runs": 0,
+      "active_s": 509.939,
+      "wall_s": 509.939,
+      "tokens": {
+        "Explore": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 15588,
+          "cache_read": 40706,
+          "output": 1068
+        },
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 46752,
+          "cache_read": 144759,
+          "output": 1016
+        },
+        "forge:docs-types-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 45288,
+          "cache_read": 83976,
+          "output": 729
+        },
+        "forge:precommit-fixer": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 48625,
+          "cache_read": 136642,
+          "output": 2333
+        },
+        "forge:security-checker": {
+          "requests": 2,
+          "input": 3,
+          "cache_write": 46154,
+          "cache_read": 40054,
+          "output": 478
+        },
+        "forge:test-writer": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 44865,
+          "cache_read": 165404,
+          "output": 2530
+        },
+        "main": {
+          "requests": 25,
+          "input": 50,
+          "cache_write": 27884,
+          "cache_read": 22503098,
+          "output": 10280
+        },
+        "other": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 43339,
+          "cache_read": 208106,
+          "output": 1656
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 10,
+      "additions": 20,
+      "deletions": 26,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 0,
+      "test_runs": 0,
+      "active_s": 42.634,
+      "wall_s": 42.634,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 3,
+          "input": 6,
+          "cache_write": 39697,
+          "cache_read": 83607,
+          "output": 676
+        },
+        "main": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 5750,
+          "cache_read": 4051076,
+          "output": 1832
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": null,
+      "files": 9,
+      "additions": 127,
+      "deletions": 65,
+      "commits": 3,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 3,
+      "active_s": 2057.115,
+      "wall_s": 2838.098,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 57240,
+          "cache_read": 148498,
+          "output": 1826
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 12,
+          "cache_write": 48915,
+          "cache_read": 205162,
+          "output": 2252
+        },
+        "forge:precommit-fixer": {
+          "requests": 12,
+          "input": 24,
+          "cache_write": 157684,
+          "cache_read": 383914,
+          "output": 2259
+        },
+        "forge:security-checker": {
+          "requests": 8,
+          "input": 14,
+          "cache_write": 94542,
+          "cache_read": 301991,
+          "output": 3810
+        },
+        "forge:test-writer": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 103070,
+          "cache_read": 368068,
+          "output": 5390
+        },
+        "main": {
+          "requests": 69,
+          "input": 138,
+          "cache_write": 68150,
+          "cache_read": 20452796,
+          "output": 31397
+        },
+        "other": {
+          "requests": 20,
+          "input": 37,
+          "cache_write": 108059,
+          "cache_read": 723899,
+          "output": 3195
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": null,
+      "files": 15,
+      "additions": 931,
+      "deletions": 14,
+      "commits": 5,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 12,
+      "test_runs": 2,
+      "active_s": 2675.076,
+      "wall_s": 22243.786,
+      "tokens": {
+        "Explore": {
+          "requests": 21,
+          "input": 41,
+          "cache_write": 65311,
+          "cache_read": 973068,
+          "output": 10616
+        },
+        "forge:design-checker": {
+          "requests": 7,
+          "input": 12,
+          "cache_write": 110096,
+          "cache_read": 245442,
+          "output": 2788
+        },
+        "forge:docs-types-checker": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 100861,
+          "cache_read": 360646,
+          "output": 3397
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 39826,
+          "cache_read": 84420,
+          "output": 943
+        },
+        "forge:precommit-fixer": {
+          "requests": 39,
+          "input": 80,
+          "cache_write": 338251,
+          "cache_read": 2081349,
+          "output": 20728
+        },
+        "forge:prior-art": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 51605,
+          "cache_read": 84612,
+          "output": 4906
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 103874,
+          "cache_read": 232458,
+          "output": 3150
+        },
+        "forge:test-advisor": {
+          "requests": 5,
+          "input": 8,
+          "cache_write": 82433,
+          "cache_read": 116175,
+          "output": 2002
+        },
+        "forge:test-writer": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 137313,
+          "cache_read": 419441,
+          "output": 10171
+        },
+        "main": {
+          "requests": 155,
+          "input": 312,
+          "cache_write": 375652,
+          "cache_read": 42397437,
+          "output": 66400
+        },
+        "other": {
+          "requests": 38,
+          "input": 70,
+          "cache_write": 224437,
+          "cache_read": 1363987,
+          "output": 6806
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 13,
+      "additions": 199,
+      "deletions": 147,
+      "commits": 7,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 1,
+      "active_s": 2370.02,
+      "wall_s": 2370.02,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 18,
+          "input": 38,
+          "cache_write": 210682,
+          "cache_read": 1082641,
+          "output": 10489
+        },
+        "forge:pr-manager": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 146426,
+          "cache_read": 680973,
+          "output": 7096
+        },
+        "forge:precommit-fixer": {
+          "requests": 33,
+          "input": 68,
+          "cache_write": 451304,
+          "cache_read": 2052095,
+          "output": 19753
+        },
+        "main": {
+          "requests": 148,
+          "input": 296,
+          "cache_write": 305675,
+          "cache_read": 37803419,
+          "output": 113113
+        },
+        "other": {
+          "requests": 27,
+          "input": 48,
+          "cache_write": 478086,
+          "cache_read": 1293706,
+          "output": 7453
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 7,
+      "additions": 358,
+      "deletions": 13,
+      "commits": 6,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 13,
+      "test_runs": 2,
+      "active_s": 4988.594,
+      "wall_s": 8651.348,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 17,
+          "input": 32,
+          "cache_write": 201999,
+          "cache_read": 1364933,
+          "output": 23419
+        },
+        "forge:docs-types-checker": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 87371,
+          "cache_read": 800607,
+          "output": 7189
+        },
+        "forge:pr-manager": {
+          "requests": 18,
+          "input": 40,
+          "cache_write": 253231,
+          "cache_read": 1187204,
+          "output": 8521
+        },
+        "forge:precommit-fixer": {
+          "requests": 32,
+          "input": 66,
+          "cache_write": 428052,
+          "cache_read": 2104692,
+          "output": 20059
+        },
+        "forge:prior-art": {
+          "requests": 20,
+          "input": 42,
+          "cache_write": 258021,
+          "cache_read": 1715993,
+          "output": 84110
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 81676,
+          "cache_read": 222122,
+          "output": 2674
+        },
+        "main": {
+          "requests": 164,
+          "input": 328,
+          "cache_write": 243093,
+          "cache_read": 89790323,
+          "output": 138083
+        },
+        "other": {
+          "requests": 33,
+          "input": 72,
+          "cache_write": 430580,
+          "cache_read": 1887495,
+          "output": 20094
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 18,
+      "additions": 444,
+      "deletions": 125,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 6,
+      "test_runs": 8,
+      "active_s": 6651.643,
+      "wall_s": 19932.324,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 9,
+          "input": 17,
+          "cache_write": 100399,
+          "cache_read": 719198,
+          "output": 10021
+        },
+        "forge:docs-types-checker": {
+          "requests": 35,
+          "input": 70,
+          "cache_write": 147676,
+          "cache_read": 4007621,
+          "output": 23964
+        },
+        "forge:pr-manager": {
+          "requests": 14,
+          "input": 30,
+          "cache_write": 85191,
+          "cache_read": 1021321,
+          "output": 7485
+        },
+        "forge:precommit-fixer": {
+          "requests": 14,
+          "input": 28,
+          "cache_write": 171274,
+          "cache_read": 905615,
+          "output": 7162
+        },
+        "forge:security-checker": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 94294,
+          "cache_read": 334815,
+          "output": 4375
+        },
+        "general-purpose": {
+          "requests": 148,
+          "input": 296,
+          "cache_write": 616788,
+          "cache_read": 20198671,
+          "output": 101263
+        },
+        "main": {
+          "requests": 173,
+          "input": 346,
+          "cache_write": 284085,
+          "cache_read": 146345057,
+          "output": 131088
+        },
+        "other": {
+          "requests": 15,
+          "input": 27,
+          "cache_write": 211769,
+          "cache_read": 834019,
+          "output": 7833
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": null,
+      "files": 16,
+      "additions": 166,
+      "deletions": 23,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 2,
+      "test_runs": 1,
+      "active_s": 447.872,
+      "wall_s": 447.872,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 49837,
+          "cache_read": 138587,
+          "output": 1280
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 49722,
+          "cache_read": 135495,
+          "output": 1125
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 43925,
+          "cache_read": 126792,
+          "output": 1424
+        },
+        "forge:precommit-fixer": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 85623,
+          "cache_read": 185633,
+          "output": 861
+        },
+        "forge:prior-art": {
+          "requests": 5,
+          "input": 11,
+          "cache_write": 51051,
+          "cache_read": 173725,
+          "output": 5809
+        },
+        "forge:security-checker": {
+          "requests": 3,
+          "input": 7,
+          "cache_write": 49248,
+          "cache_read": 88475,
+          "output": 1316
+        },
+        "forge:test-writer": {
+          "requests": 9,
+          "input": 18,
+          "cache_write": 57815,
+          "cache_read": 405438,
+          "output": 5500
+        },
+        "main": {
+          "requests": 41,
+          "input": 82,
+          "cache_write": 38908,
+          "cache_read": 15507818,
+          "output": 19003
+        },
+        "other": {
+          "requests": 4,
+          "input": 11,
+          "cache_write": 48059,
+          "cache_read": 133847,
+          "output": 1987
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": null,
+      "files": 4,
+      "additions": 9,
+      "deletions": 7,
+      "commits": 1,
+      "review_rounds": 0,
+      "wrapups_posted": 1,
+      "precommit_runs": 1,
+      "test_runs": 0,
+      "active_s": 34.475,
+      "wall_s": 34.475,
+      "tokens": {
+        "main": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 2512,
+          "cache_read": 3668972,
+          "output": 1666
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 14,
+      "additions": 4072,
+      "deletions": 724,
+      "commits": 5,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 4,
+      "active_s": 9167.549,
+      "wall_s": 12980.324,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 30,
+          "input": 55,
+          "cache_write": 471615,
+          "cache_read": 2128222,
+          "output": 28082
+        },
+        "forge:docs-types-checker": {
+          "requests": 23,
+          "input": 48,
+          "cache_write": 292828,
+          "cache_read": 1644419,
+          "output": 16719
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 81661,
+          "cache_read": 540735,
+          "output": 4263
+        },
+        "forge:precommit-fixer": {
+          "requests": 41,
+          "input": 86,
+          "cache_write": 398442,
+          "cache_read": 3186429,
+          "output": 21755
+        },
+        "forge:prior-art": {
+          "requests": 8,
+          "input": 15,
+          "cache_write": 117900,
+          "cache_read": 649855,
+          "output": 21695
+        },
+        "forge:security-checker": {
+          "requests": 53,
+          "input": 105,
+          "cache_write": 399678,
+          "cache_read": 5526128,
+          "output": 60032
+        },
+        "general-purpose": {
+          "requests": 152,
+          "input": 312,
+          "cache_write": 1526195,
+          "cache_read": 49273073,
+          "output": 226212
+        },
+        "main": {
+          "requests": 83,
+          "input": 166,
+          "cache_write": 454629,
+          "cache_read": 31884166,
+          "output": 41374
+        },
+        "other": {
+          "requests": 24,
+          "input": 43,
+          "cache_write": 538243,
+          "cache_read": 1107662,
+          "output": 9725
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "10.8.1",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 20,
+      "additions": 302,
+      "deletions": 268,
+      "commits": 8,
+      "review_rounds": 3,
+      "wrapups_posted": 1,
+      "precommit_runs": 14,
+      "test_runs": 3,
+      "active_s": 4533.295,
+      "wall_s": 23068.101,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 15,
+          "input": 27,
+          "cache_write": 254832,
+          "cache_read": 976614,
+          "output": 12267
+        },
+        "forge:docs-types-checker": {
+          "requests": 16,
+          "input": 32,
+          "cache_write": 226237,
+          "cache_read": 946845,
+          "output": 10655
+        },
+        "forge:precommit-fixer": {
+          "requests": 34,
+          "input": 68,
+          "cache_write": 561013,
+          "cache_read": 2073435,
+          "output": 22048
+        },
+        "forge:prior-art": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 87718,
+          "cache_read": 222652,
+          "output": 8588
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 227769,
+          "cache_read": 437885,
+          "output": 6684
+        },
+        "main": {
+          "requests": 191,
+          "input": 382,
+          "cache_write": 717316,
+          "cache_read": 90367467,
+          "output": 139506
+        },
+        "other": {
+          "requests": 26,
+          "input": 45,
+          "cache_write": 423071,
+          "cache_read": 1275675,
+          "output": 6113
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.9.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 41,
+      "additions": 307,
+      "deletions": 950,
+      "commits": 1,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 6,
+      "test_runs": 7,
+      "active_s": 2089.5769999999998,
+      "wall_s": 2889.669,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 56139,
+          "cache_read": 196787,
+          "output": 1822
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 53538,
+          "cache_read": 192147,
+          "output": 2002
+        },
+        "forge:precommit-fixer": {
+          "requests": 30,
+          "input": 64,
+          "cache_write": 143000,
+          "cache_read": 1429013,
+          "output": 9720
+        },
+        "forge:security-checker": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 103628,
+          "cache_read": 237768,
+          "output": 2473
+        },
+        "forge:test-writer": {
+          "requests": 7,
+          "input": 14,
+          "cache_write": 93299,
+          "cache_read": 208624,
+          "output": 2422
+        },
+        "general-purpose": {
+          "requests": 53,
+          "input": 106,
+          "cache_write": 243937,
+          "cache_read": 5531997,
+          "output": 41866
+        },
+        "main": {
+          "requests": 73,
+          "input": 146,
+          "cache_write": 71476,
+          "cache_read": 36576029,
+          "output": 31428
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "10.9.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 9,
+      "additions": 19,
+      "deletions": 23,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 0,
+      "test_runs": 0,
+      "active_s": 93.15,
+      "wall_s": 93.15,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 44223,
+          "cache_read": 39317,
+          "output": 532
+        },
+        "forge:issue-triage": {
+          "requests": 1,
+          "input": 2,
+          "cache_write": 472,
+          "cache_read": 41906,
+          "output": 152
+        },
+        "main": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 4131,
+          "cache_read": 2433452,
+          "output": 2083
+        },
+        "other": {
+          "requests": 2,
+          "input": 8,
+          "cache_write": 1297,
+          "cache_read": 90550,
+          "output": 325
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.0.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 25,
+      "additions": 2270,
+      "deletions": 95,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 4,
+      "test_runs": 2,
+      "active_s": 1826.294,
+      "wall_s": 1895.854,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 8,
+          "input": 14,
+          "cache_write": 108737,
+          "cache_read": 293439,
+          "output": 2382
+        },
+        "forge:docs-types-checker": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 54084,
+          "cache_read": 183343,
+          "output": 2211
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 44773,
+          "cache_read": 127789,
+          "output": 1780
+        },
+        "forge:precommit-fixer": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 96386,
+          "cache_read": 273125,
+          "output": 2476
+        },
+        "forge:security-checker": {
+          "requests": 6,
+          "input": 11,
+          "cache_write": 55214,
+          "cache_read": 249528,
+          "output": 1555
+        },
+        "general-purpose": {
+          "requests": 151,
+          "input": 306,
+          "cache_write": 289578,
+          "cache_read": 28264470,
+          "output": 111024
+        },
+        "main": {
+          "requests": 30,
+          "input": 60,
+          "cache_write": 37126,
+          "cache_read": 18979544,
+          "output": 14506
+        },
+        "other": {
+          "requests": 4,
+          "input": 11,
+          "cache_write": 48162,
+          "cache_read": 134203,
+          "output": 2126
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "11.0.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5",
+      "files": 23,
+      "additions": 1095,
+      "deletions": 931,
+      "commits": 6,
+      "review_rounds": 4,
+      "wrapups_posted": 1,
+      "precommit_runs": 26,
+      "test_runs": 16,
+      "active_s": 8926.614,
+      "wall_s": 334831.657,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 22,
+          "input": 41,
+          "cache_write": 287697,
+          "cache_read": 1669316,
+          "output": 26267
+        },
+        "forge:docs-types-checker": {
+          "requests": 13,
+          "input": 26,
+          "cache_write": 178906,
+          "cache_read": 879508,
+          "output": 13246
+        },
+        "forge:pr-manager": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 87631,
+          "cache_read": 571587,
+          "output": 6734
+        },
+        "forge:precommit-fixer": {
+          "requests": 38,
+          "input": 78,
+          "cache_write": 497938,
+          "cache_read": 2830014,
+          "output": 28212
+        },
+        "forge:security-checker": {
+          "requests": 42,
+          "input": 80,
+          "cache_write": 391829,
+          "cache_read": 3308099,
+          "output": 54348
+        },
+        "general-purpose": {
+          "requests": 309,
+          "input": 618,
+          "cache_write": 1006856,
+          "cache_read": 41744741,
+          "output": 211266
+        },
+        "main": {
+          "requests": 256,
+          "input": 510,
+          "cache_write": 1446285,
+          "cache_read": 111474589,
+          "output": 255001
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.0.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 3,
+      "additions": 6,
+      "deletions": 4,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 0,
+      "test_runs": 0,
+      "active_s": 58.161,
+      "wall_s": 58.161,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 41977,
+          "cache_read": 39337,
+          "output": 306
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 2550,
+          "cache_read": 125052,
+          "output": 533
+        },
+        "main": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 5131,
+          "cache_read": 2700508,
+          "output": 1785
+        },
+        "other": {
+          "requests": 2,
+          "input": 8,
+          "cache_write": 1276,
+          "cache_read": 91822,
+          "output": 213
+        }
+      }
+    },
+    {
+      "repo": "external",
+      "forge_version": "11.0.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 17,
+      "additions": 78,
+      "deletions": 41,
+      "commits": 2,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 5,
+      "test_runs": 3,
+      "active_s": 762.29,
+      "wall_s": 762.29,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 79968,
+          "cache_read": 228224,
+          "output": 2518
+        },
+        "forge:docs-types-checker": {
+          "requests": 6,
+          "input": 12,
+          "cache_write": 79017,
+          "cache_read": 363913,
+          "output": 2244
+        },
+        "forge:pr-manager": {
+          "requests": 5,
+          "input": 10,
+          "cache_write": 80397,
+          "cache_read": 306889,
+          "output": 3345
+        },
+        "forge:precommit-fixer": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 175199,
+          "cache_read": 698929,
+          "output": 5659
+        },
+        "main": {
+          "requests": 54,
+          "input": 112,
+          "cache_write": 82261,
+          "cache_read": 10858784,
+          "output": 31027
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 44,
+      "additions": 897,
+      "deletions": 61,
+      "commits": 11,
+      "review_rounds": null,
+      "wrapups_posted": 1,
+      "precommit_runs": null,
+      "test_runs": null,
+      "active_s": null,
+      "wall_s": null,
+      "tokens": {}
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 36,
+      "additions": 3017,
+      "deletions": 83,
+      "commits": 3,
+      "review_rounds": 5,
+      "wrapups_posted": 1,
+      "precommit_runs": 15,
+      "test_runs": 1,
+      "active_s": 3760.639,
+      "wall_s": 10726.447,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 17,
+          "input": 30,
+          "cache_write": 218347,
+          "cache_read": 622046,
+          "output": 5608
+        },
+        "forge:docs-types-checker": {
+          "requests": 11,
+          "input": 22,
+          "cache_write": 125105,
+          "cache_read": 365311,
+          "output": 3306
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 36249,
+          "cache_read": 91558,
+          "output": 1492
+        },
+        "forge:precommit-fixer": {
+          "requests": 56,
+          "input": 112,
+          "cache_write": 285893,
+          "cache_read": 3390768,
+          "output": 27332
+        },
+        "forge:security-checker": {
+          "requests": 10,
+          "input": 20,
+          "cache_write": 125724,
+          "cache_read": 430309,
+          "output": 4178
+        },
+        "general-purpose": {
+          "requests": 133,
+          "input": 272,
+          "cache_write": 765526,
+          "cache_read": 27586400,
+          "output": 152408
+        },
+        "main": {
+          "requests": 49,
+          "input": 98,
+          "cache_write": 851620,
+          "cache_read": 37675617,
+          "output": 31085
+        },
+        "other": {
+          "requests": 5,
+          "input": 11,
+          "cache_write": 40877,
+          "cache_read": 187359,
+          "output": 1967
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 14,
+      "additions": 1232,
+      "deletions": 290,
+      "commits": 3,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 10,
+      "test_runs": 2,
+      "active_s": 1659.695,
+      "wall_s": 1717.463,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 5,
+          "input": 9,
+          "cache_write": 55162,
+          "cache_read": 199173,
+          "output": 1667
+        },
+        "forge:docs-types-checker": {
+          "requests": 8,
+          "input": 16,
+          "cache_write": 95551,
+          "cache_read": 262569,
+          "output": 2557
+        },
+        "forge:issue-triage": {
+          "requests": 3,
+          "input": 5,
+          "cache_write": 43849,
+          "cache_read": 83732,
+          "output": 1377
+        },
+        "forge:precommit-fixer": {
+          "requests": 58,
+          "input": 116,
+          "cache_write": 245491,
+          "cache_read": 3397186,
+          "output": 23786
+        },
+        "forge:security-checker": {
+          "requests": 9,
+          "input": 16,
+          "cache_write": 103766,
+          "cache_read": 327978,
+          "output": 3459
+        },
+        "general-purpose": {
+          "requests": 62,
+          "input": 126,
+          "cache_write": 209464,
+          "cache_read": 9242459,
+          "output": 78843
+        },
+        "main": {
+          "requests": 37,
+          "input": 74,
+          "cache_write": 44152,
+          "cache_read": 26462676,
+          "output": 20185
+        },
+        "other": {
+          "requests": 7,
+          "input": 16,
+          "cache_write": 85024,
+          "cache_read": 214473,
+          "output": 4224
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 10,
+      "additions": 1051,
+      "deletions": 12,
+      "commits": 6,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 8,
+      "test_runs": 1,
+      "active_s": 2148.107,
+      "wall_s": 2918.79,
+      "tokens": {
+        "forge:design-checker": {
+          "requests": 6,
+          "input": 10,
+          "cache_write": 106930,
+          "cache_read": 185917,
+          "output": 2359
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 49793,
+          "cache_read": 137286,
+          "output": 964
+        },
+        "forge:issue-triage": {
+          "requests": 11,
+          "input": 19,
+          "cache_write": 116363,
+          "cache_read": 354295,
+          "output": 3464
+        },
+        "forge:precommit-fixer": {
+          "requests": 23,
+          "input": 46,
+          "cache_write": 95665,
+          "cache_read": 1029853,
+          "output": 6492
+        },
+        "forge:security-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 50724,
+          "cache_read": 136103,
+          "output": 1210
+        },
+        "general-purpose": {
+          "requests": 51,
+          "input": 108,
+          "cache_write": 296214,
+          "cache_read": 6137591,
+          "output": 53187
+        },
+        "main": {
+          "requests": 52,
+          "input": 104,
+          "cache_write": 73714,
+          "cache_read": 44568994,
+          "output": 25898
+        },
+        "other": {
+          "requests": 14,
+          "input": 35,
+          "cache_write": 142793,
+          "cache_read": 491158,
+          "output": 5610
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 47,
+      "additions": 5465,
+      "deletions": 36,
+      "commits": 11,
+      "review_rounds": null,
+      "wrapups_posted": 1,
+      "precommit_runs": null,
+      "test_runs": null,
+      "active_s": null,
+      "wall_s": null,
+      "tokens": {}
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": null,
+      "files": 3,
+      "additions": 6,
+      "deletions": 4,
+      "commits": 1,
+      "review_rounds": 1,
+      "wrapups_posted": 1,
+      "precommit_runs": 0,
+      "test_runs": 0,
+      "active_s": 49.84,
+      "wall_s": 49.84,
+      "tokens": {
+        "forge:docs-types-checker": {
+          "requests": 2,
+          "input": 4,
+          "cache_write": 41847,
+          "cache_read": 39246,
+          "output": 295
+        },
+        "main": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 4184,
+          "cache_read": 2699335,
+          "output": 3110
+        }
+      }
+    },
+    {
+      "repo": "forge",
+      "forge_version": "11.1.0",
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "files": 9,
+      "additions": 1073,
+      "deletions": 53,
+      "commits": 2,
+      "review_rounds": 2,
+      "wrapups_posted": 1,
+      "precommit_runs": 8,
+      "test_runs": 1,
+      "active_s": 1736.425,
+      "wall_s": 5224.845,
+      "tokens": {
+        "Explore": {
+          "requests": 7,
+          "input": 15,
+          "cache_write": 41955,
+          "cache_read": 111169,
+          "output": 6131
+        },
+        "forge:design-checker": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 46428,
+          "cache_read": 154845,
+          "output": 1121
+        },
+        "forge:docs-types-checker": {
+          "requests": 4,
+          "input": 8,
+          "cache_write": 42998,
+          "cache_read": 136997,
+          "output": 871
+        },
+        "forge:issue-triage": {
+          "requests": 4,
+          "input": 7,
+          "cache_write": 44452,
+          "cache_read": 128376,
+          "output": 1368
+        },
+        "forge:precommit-fixer": {
+          "requests": 28,
+          "input": 56,
+          "cache_write": 116028,
+          "cache_read": 1734021,
+          "output": 16338
+        },
+        "forge:security-checker": {
+          "requests": 10,
+          "input": 18,
+          "cache_write": 108960,
+          "cache_read": 412289,
+          "output": 3942
+        },
+        "general-purpose": {
+          "requests": 57,
+          "input": 120,
+          "cache_write": 491725,
+          "cache_read": 12357257,
+          "output": 54872
+        },
+        "main": {
+          "requests": 26,
+          "input": 52,
+          "cache_write": 916128,
+          "cache_read": 22823987,
+          "output": 16133
+        },
+        "other": {
+          "requests": 4,
+          "input": 9,
+          "cache_write": 47881,
+          "cache_read": 133247,
+          "output": 2060
+        }
+      }
+    }
+  ]
+}
